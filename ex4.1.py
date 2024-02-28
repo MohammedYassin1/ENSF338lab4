@@ -1,10 +1,10 @@
 """
 1.  
-    Best Case: All elements are less than or equal to 5. In this case the inner loop is never triggered, .....
+    Best Case: All elements are less than or equal to 5. O(n)
     
-    Worst Case: All elenents are greater than 5. In this case the inner loop is always triggered, ...
+    Worst Case: All elenents are greater than 5. O(n^2)
     
-    Average Case: Elements are random. This causes the inner loop to trigger .....
+    Average Case: Elements are random. O(n^2)
 
 2.
     In the code below, all of the case complexities are the same (O(n)):
