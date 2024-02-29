@@ -1,5 +1,9 @@
 '''
-1. The growth factor is done by rounding the capacity of the list to the nearest multiple of 4.
+1. The growth factor is done through this line of code:
+
+new_allocated = ((size_t)newsize + (newsize >> 3) + 6) & ~(size_t)3;
+
+which is equivilant to having a growth factor of 1.125 and then rouding to the nearest multiple of 4. 
 '''
 
 #2.
